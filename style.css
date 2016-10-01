@@ -1,0 +1,44 @@
+header {
+    font: Arial; 
+    color:white;
+    font-size: normal; 
+}
+
+#homepage {
+    background-color: lightblue; 
+}
+
+#services {
+    background-color: lightcoral; 
+}
+
+a {
+  color: white;
+}
+a:visited {
+  color: yellow;
+}
+a:hover {
+    color: lightgreen;
+}
+
+footer {
+    background-color: black; 
+    color: white; 
+    text-align: right; 
+}
+
+ul{
+  list-style-type: square; 
+}
+
+dt {
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+nav {
+    background-color: blue; 
+    width: 30%; 
+    text-rendering: geometricPrecision; 
+}
