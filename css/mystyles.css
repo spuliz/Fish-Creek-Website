@@ -1,0 +1,544 @@
+
+/*BODY*/
+
+body {
+    background-color: white; 
+    text-align: center;
+}
+
+/*NAVBAR*/
+
+/*CHANGED*/.navbar-default {
+    background-color: gold;
+    border-radius: 1;
+    margin-bottom: 0px; 
+}
+
+/*CHANGED*/.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+/*CHANGED*/.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-transform: uppercase; 
+    
+}
+
+/*CHANGED*/.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: orange;
+    color: white; 
+}
+
+/*CHANGED*/.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: orange;
+}
+
+/*CHANGED*/.navbar-default .navbar-text {
+    color: #FFF;
+}
+
+/*CHANGED*/.navbar-default .navbar-toggle {
+    border-color: orange;
+}
+
+/*CHANGED*/.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: orange;
+}
+
+/*CHANGED*/.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+/*BANNER1*/
+
+#banner1 {
+    background: url(images/venice.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%; 
+    height: 500px; 
+    background-attachment: scroll; /*Spended hours to get this!*/
+    background-position: center center;
+    }
+
+#banner1 h1 {
+    font-family: Verdana, Arial, sans-serif;
+    color: white;
+    display: block;
+    position: relative; 
+    top: 70px; 
+    text-shadow: 0 1px 0 #666;
+    font-weight: 700;
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    line-height: 95%;
+    text-align: center;    
+}
+
+#banner1 a {
+    position: relative; 
+    color: white;
+    background-color: orange; 
+    text-decoration: none;
+    top: 120px; 
+}
+
+#banner1 a:hover {
+    background-color: darkorange; 
+}
+
+/*BANNER2*/
+
+#banner2 {
+    background: url(images/save.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 500px; 
+    background-attachment: scroll;
+}
+
+#banner2 h1 {
+    font-family: Verdana, Arial, sans-serif;
+    color: white;
+    display: block;
+    position: relative; 
+    top: 70px; 
+    text-shadow: 0 1px 0 #666;
+    font-weight: 700;
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    line-height: 95%;
+    text-align: left; 
+}
+
+
+#banner2 a {
+    position: relative;
+    float: left; 
+    left:30px; 
+    text-align: left; 
+    color: white;
+    background-color: orange; 
+    text-decoration: none;
+    top: 100px; 
+}
+
+#banner2 a:hover {
+    background-color: darkorange; 
+}
+
+/*BANNER3*/
+
+#banner3 {
+    background: url(images/italy.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 500px; 
+    background-attachment: scroll;
+}
+
+#banner3 h1 {
+    font-family: Verdana, Arial, sans-serif;
+    color: white;
+    display: block;
+    position: relative; 
+    top: 70px; 
+    text-shadow: 0 1px 0 #666;
+    font-weight: 700;
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    line-height: 95%;
+    text-align: left;    
+}
+
+
+#banner3 a {
+    position: relative;
+    float: left; 
+    left:30px; 
+    text-align: left; 
+    color: white;
+    background-color: orange; 
+    text-decoration: none;
+    top: 100px; 
+}
+
+#banner3 a:hover {
+    background-color: darkorange; 
+}
+
+/*BANNER4*/
+
+#banner4 {
+    background: url(images/costiera-amalfitana.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 500px; 
+    background-attachment: scroll;
+}
+
+#banner4 h1 {
+    font-family: Verdana, Arial, sans-serif;
+    color: white;
+    display: block;
+    position: relative; 
+    top: 70px; 
+    text-shadow: 0 1px 0 #666;
+    font-weight: 700;
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    line-height: 95%;
+    text-align: center;     
+}
+
+#banner4 a {
+    position: relative; 
+    color: white;
+    background-color: orange; 
+    text-decoration: none;
+    top: 120px; 
+}
+
+#banner4 a:hover {
+    background-color: darkorange; 
+}
+
+/*BANNER5*/
+
+#banner5 {
+    background: url(images/milan.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    height: 500px; 
+    background-attachment: scroll;
+}
+
+#banner5 h1 {
+    font-family: Verdana, Arial, sans-serif;
+    color: white;
+    display: block;
+    position: relative; 
+    top: 70px; 
+    text-shadow: 0 1px 0 #666;
+    font-weight: 700;
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    line-height: 95%;
+    text-align: center;   
+}
+
+#banner5 a {
+    position: relative; 
+    color: white;
+    background-color: orange; 
+    text-decoration: none;
+    top: 120px; 
+}
+
+#banner5 a:hover {
+    background-color: darkorange; 
+}
+
+
+/*MAIN CONTENT AFTER BANNER*/
+
+#content {
+    display: block; 
+    position: relative; 
+    height: auto;  
+    width: 100%;
+    z-index: 1; 
+}
+
+#content h1{
+    font-family: Verdana, Arial, sans-serif;
+    color: black;
+    top: 50px; 
+    display: block;
+    position: relative; 
+    text-shadow: 0 1px 0 #666;
+    font-weight: 700;
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    line-height: 95%;
+    text-align: center; 
+}
+
+#content p{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em; 
+    float: left; 
+    left: 6px; 
+    color: black;
+    top: 70px; 
+    display: block;
+    position: relative; 
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    text-align: justify;    
+}
+
+
+#content p i{
+    font-size: 1.1em;  
+    text-align: left;     
+}
+
+#cities {
+    font-family: Verdana, Arial, sans-serif;
+    color: black;
+    top: 50px; 
+    display: block;
+    position: relative; 
+    text-shadow: 0 1px 0 #666;
+    font-weight: 700;
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    line-height: 95%;
+    text-align: center; 
+    margin-bottom: 100px; 
+}
+
+#requirements {
+    list-style-type:disc; 
+    display: inline-block;
+    position: relative; 
+    margin-top: 100px; 
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em; 
+    float: left; 
+    left: 6px; 
+    color: black;
+    top: 70px; 
+    margin: 0 auto 9px;
+    padding: 0 24px;
+    text-align: justify; 
+    margin-left: 30px; 
+}
+
+/*TABLE*/
+
+/*CHANGED*/.table-responsive {
+    width: 90%; 
+    display: block; 
+    position: relative; 
+    text-align: center; 
+    margin-left: 25px;   
+}
+
+/*CHANGED*/.table-responsive th {
+    text-align: center; 
+    font-size: 1.5em; 
+}
+
+/*CHANGED*/.table-responsive td {
+    text-align: center; 
+     
+}
+
+/*CHANGED*/.panel {
+    border-color: none;
+    all: none; 
+} 
+
+
+
+/*CHANGED*/.panel-title a {
+    background-color: orange; 
+    color: white; 
+    border-color: white; 
+}
+
+/*CHANGED*/.panel-title a:hover,
+.panel-title a:visited,
+.panel-title a:focus,
+.panel-title a:active, 
+.panel-title a:active:focus
+ {
+    background-color: orange;
+    border-color: white; 
+    color: white; 
+}
+
+/*CHANGED*/.panel li{
+    font-size: .8em;
+    text-align: left; 
+}
+
+/*CHANGED*/.panel li a{
+    color: black; 
+    text-decoration: none; 
+}
+
+
+
+/*SEARCHTOOL*/
+
+#searchtool {
+    display: inline-block;
+    position: relative; 
+    width: 300px;
+    top: 70px; 
+    margin-bottom: 100px; 
+}
+
+#searchbar{
+    height: 110px; 
+    text-align: center; 
+    font-size: 1.5em;
+    border-color: blue; 
+}
+
+/*CLEAR*/
+
+/*This is a fix for the mobile experience, spended hours as well XD*/
+.clear {
+    clear: both; 
+    height: 60px; 
+}
+
+
+/*COLLAPSE*/
+
+/*CHANGED*/.panel-group {
+    display: inline-block; 
+    position: relative; 
+    
+}
+
+
+/*FORM*/
+
+/*CHANGED*/#form {
+    margin-top: 150px; 
+    display: block; 
+    position: relative; 
+    text-align: left; 
+    background-color: gold; 
+    padding-top: 50px; 
+    padding-left: 30px; 
+}
+
+/*CHANGED*/#submit {
+    position: relative; 
+    color: white;
+    background-color: orange; 
+    text-decoration: none;
+}
+
+/*CHANGED*/#form button:hover {
+    background-color: darkorange; 
+}
+
+
+/*TABLE ARROW*/
+
+/*CHANGED*/.btn-arrow-right {
+    top:10px; 
+}
+
+/*CHANGED*/.btn-arrow-right:hover {
+    background-color: orange; 
+    border-color: transparent; 
+}
+
+/*ROUNDIMAGE*/
+
+li b {
+    text-decoration: underline; 
+    color: gold; 
+}
+
+
+#img-circle {
+    border-radius: 50%;
+    transform: scale(.6); /*So proud of that*/
+}
+
+.title-img {
+    top:0px;
+    margin-bottom: 0px;
+}
+
+#button-img {
+    transform: scale(.9);
+    margin-top: 100px; 
+}
+
+/*CHANGED*/#arrow-img {
+    top: 150px; 
+}
+
+/*ANIMATION*/
+
+/*CSS3*/@keyframes available {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/*CSS3*/#available {
+    position: relative;
+    background-color: red;
+    animation-name: available;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+/*FOOTER*/
+
+
+#pageFooter { 
+   
+    text-align: center; 
+    overflow: hidden; 
+    height: 10%;
+    background: black;
+    border-top: 1px solid black;
+    padding-top: 1em;
+    position: relative; 
+    display: block; 
+    bottom: 0; 
+    width: 100%;
+    margin-top: 20px; 
+}
+
+#pageFooter h2 {
+    display: inline-block; 
+    position: relative; 
+    margin: 5px; 
+    color: white;
+}
+
+#pageFooter form {
+    float: left;
+    margin-left: 50px;
+    display: inline;
+}
+
+#pageFooter i {
+    display: inline-block; 
+    position: relative; 
+    margin: 5px; 
+    color: white; 
+}
+
+#pageFooter a {
+    color: white; 
+}

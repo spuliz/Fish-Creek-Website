@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!--HEAD SECTION-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--mobile responsiveness-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="description" content="Free trip advices from locals">
+    <meta name="keywords" content="Trip, Italy, Locals, Advices, Tourism, Travel, Tips">
+    <meta name="author" content="Saverio Pulizzi">
+    <title>Local Advisor</title>
+    <!-- Link to the Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet"> 
+    <!-- Link to my customized CSS file -->
+    <link href="css/mystyles.css" rel="stylesheet">
+    <link rel='shortcut icon' href='css/images/favicon.ico' type='image/x-icon'/ >
+   <script src="https://use.fontawesome.com/f99e014467.js"></script>
+ 
+<!--BODY SECTION-->
+<body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+<!--MY JAVASCRIPT-->
+    <script src="js/my.js"></script>
+
+
+<!--NAVBAR-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Local Advisor</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="tourist.html">Tourist</a></li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Where are you going?">
+            </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="advisor.html">Become an Advisor!</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!--BANNER-->   
+<div id="banner4"> 
+    <h1>Become a Local Advisor!</h1>
+     <p><a class="btn btn-primary btn-lg" href="#content" role="button">Apply Now</a></p>
+    
+</div>
+
+<!--SECTION-->   
+<section id="content">
+    <h1>Who is a local advisor?</h1>
+        <div class="container">
+            <p>As a local advisor, you will have the unique opportunity to <b>promote your city</b> and to share your unique advices with a <b>global community!</b> <br><br> Apply is simple, you only need to fill the <a href="#form"><b>form</b></a> below and to provide some <b>unique advices!</b> <br> 
+            How does your perfect day look like? What are the best things to do in your hometown?<br>
+            In particular, we are looking for: 
+            </p>
+             <ul id="requirements">
+                <li>Local food to try</li>
+                <li>Suggested restaurants :-)</li>
+                <li>Must-visit spots</li>
+                <li>Nightlife suggestions!</li> 
+            </ul>
+        </div>
+</section>
+    
+    
+<!--FORM-->
+    
+<form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" method="post" class="container" id="form">
+    <div class="form-group row">
+      <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputName" name="fname" required placeholder="Solo il nome va bene!">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail" name="fname" required placeholder="Il tuo indirizzo email">
+      </div>
+    </div>
+      
+      <div class="form-group row">
+        <label for="inputCity" class="col-sm-2 col-form-label">City</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputCity" name="fname" required placeholder="La città che vuoi promuovere">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="comment">Local food to try</label>
+        <textarea class="form-control" rows="1" id="comment" placeholder="Per esempio: Focaccia con crema e formaggio al tartufo, salame di cinghiale e pomodoro"></textarea>
+      </div>
+
+     <div class="form-group">
+        <label for="comment">Suggested restaurant</label>
+        <textarea class="form-control" rows="1" id="comment" placeholder="Il posto ideale dove provare il cibo che hai suggerito prima!"></textarea>
+      </div> 
+
+    <div class="form-group">
+        <label for="comment">Must visit spot</label>
+        <textarea class="form-control" rows="1" id="comment" placeholder="Un luogo da visitare"></textarea>
+    </div> 
+
+    <div class="form-group">
+        <label for="comment">Nightlife suggestion</label>
+        <textarea class="form-control" rows="1" id="comment" placeholder="Un locale dove bere un drink o dove andare a ballare!"></textarea>
+    </div> 
+
+     <div class="form-group">
+        <label for="comment">Others</label>
+        <textarea class="form-control" rows="3" id="comment" placeholder="Altri consigli?"></textarea>
+    </div> 
+
+    <div class='container' id="attachment">
+        <label for='photo' >Upload your photo:</label><br/>
+        <input type="file" name='photo' id='photo' /><br/>
+        <span id='contactus_photo_errorloc' class='error'></span>
+    </div>
+
+    <div class="form-group row">
+      <label class="col-sm-2">Personal Picture?</label>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Si, mostra la mia foto
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="offset-sm-2 col-sm-10">
+        <input id="submit" type="submit" value="Apply Now!" class="btn btn-primary btn-lg" role="button">
+      </div>
+    </div>
+
+</form>    
+
+<!--CLEAR-->
+<div class="clear"></div>   
+
+<!--FOOTER-->
+<footer id="pageFooter">
+    <h2>Get yourself connected...</h2>
+    <ul>
+        <a href="https://www.facebook.com/saverio.pulizzi" title="Be our friend...PLEASE" class="facebook" target="_blank" ><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+ 
+        <a href="https://ie.linkedin.com/in/saverio-pulizzi-0213796a" title="Please join our professional network on LinkedIn" class="linked" target="_blank" ><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+    </ul>
+<a href="https://ie.linkedin.com/in/saverio-pulizzi-0213796a
+" class="notice" target="_blank">&copy; 2016 spuliz</a>   
+</footer>
+
+</body>
+    
+    
+    
+</html>
